@@ -1,0 +1,88 @@
+:root {
+    --default-black: #0a0c10;
+    --default-white: #f0f3f6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: var(--default-black);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--default-white);
+}
+
+html,
+body,
+main {
+    height: 100%;
+} 
+
+body {
+    display: table;
+}
+
+main {
+    display: table-row;
+}
+
+
+footer {
+    border-top: 2px solid var(--default-white);
+    padding: 10px 15px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.toggle-button {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: var(--default-black);
+    color: var(--default-white);
+    padding: 10px 15px;
+    border: none;
+}
+
+.leftPanel {
+    height: 100%;
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: var(--default-black);
+    border-right: 2px var(--default-white) solid;
+    overflow-x: hidden; 
+    padding-top: 60px; 
+    transition: 0.8s; 
+}
+
+.leftPanel a {
+    text-decoration: none;
+    display: block;
+    padding-left: 40px;
+    font-size: 20px;
+}
+
+.closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.panel {
+    padding: 10px 130px;
+}
+
+.panel h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.panel p {
+    padding: 10px;
+    text-align: justify;
+}
