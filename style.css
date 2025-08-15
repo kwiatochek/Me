@@ -29,6 +29,7 @@ main {
 footer {
     border-top: 2px solid var(--default-white);
     padding: 10px 15px;
+    text-align: center;
 }
 
 h2 {
